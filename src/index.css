@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .critical-gradient {
+    @apply from-critical-100 to-critical-200;
+  }
+  .negative-gradient {
+    @apply from-negative-100 to-negative-200;
+  }
+
+  .normal-gradient {
+    @apply from-normal-100 to-normal-200;
+  }
+
+  .good-gradient {
+    @apply from-good-100 to-good-200;
+  }
+
+  .awesome-gradient {
+    @apply from-awesome-100 to-awesome-200;
+  }
+}
