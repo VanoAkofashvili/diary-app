@@ -24,7 +24,7 @@ const EditDay: React.FC<EditDayProps> = ({ day, onEdit }) => {
       <textarea
         className="w-full p-1 max-h-20"
         value={changes.description}
-        onChange={({ target }: any) =>
+        onChange={({ target }) =>
           setChanges({
             ...changes,
             description: target.value,
